@@ -18,4 +18,18 @@ class NewsServer:
         self.server_socket.listen(5)
         print("The server is ready for connection")
 
+    def fetch_news(self, endpoint, params=None):
+        
+        try:
+            if not params:
+                params = {}
+            params['apiKey'] = API_KEY
+            params['pageSize'] = 15
+            url = f"{BASE_URL}{endpoint}"
+            response = requests.get(url, params=params)
+            response.raise_for_status()
+            return response.json()
+        except requests.RequestException as e:
+            return {"error": f"Failed to fetch data: {e}"}
+
     
