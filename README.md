@@ -70,8 +70,8 @@ Using Object-Oriented Programming (OOP) helped organize the code by dividing it 
 
 <h1>Acknowledgments</h1>
 <P>instructor:
-Dr.Mohammed Abdulaziz Almeer
-University of Bahrain</br> 
+Dr.Mohammed Abdulaziz Almeer</br>
+University of Bahrain
 </P>
 
 <h1>Conclusion</h1>
