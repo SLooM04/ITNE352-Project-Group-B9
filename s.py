@@ -90,4 +90,13 @@ class NewsServer:
         with open(filename, 'w') as f:
             json.dump(data, f, indent=4)
 
-   
+    def start(self):
+       
+        while True:
+            client_socket, client_address = self.server_socket.accept()
+            client_thread = threading.Thread(target=self.handle_client, args=(client_socket, client_address))
+            client_thread.start()
+
+if __name__ == "__main__":
+    server = NewsServer(HOST, PORT)
+    server.start()
