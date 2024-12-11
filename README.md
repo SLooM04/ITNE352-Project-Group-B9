@@ -25,38 +25,38 @@ Salman Mohammed Jassim-202206207
 <h1>Requirements</h1>
 <ol>
   <li>Install Python
-Make sure you have Python installed on your computer (preferably version 3.7 or higher).</li>
+Make sure you have Python installed on your computer.</li>
   
-  <li>Install Required Libraries
+  <li>Install Required Libraries (socket, json, threading, requests)
 Run the following command to install the required library:
     (pip install requests)</li>
 
   <li>Set Up the Server
-    Open the server.py file and replace the API_KEY variable with your own NewsAPI key.
-Run the server using this command:(python server.py)</li>
+    Open the s.py file and replace the API_KEY variable with your own NewsAPI key.
+Run the server using this command:(python s.py)</li>
 
 <li>Set Up the Client
-Open the client.py file and run it in a different terminal window or a separate device using this command:(python client.py)</li>
+Open the client.py file and run it in a different terminal window or a separate device using this command:(python c.py)</li>
 
 <li> Run the Program
 Once both the server and client are running, follow the instructions displayed on the client screen to interact with the system and browse news articles.</li>
 </ol>
 
 <h1>How to Run</h1>
-<P><strong>step 1:</strong> open terminal then write "python server.py"</br>
-<strong>step 2:</strong> open the terminal by ctrl+shift+5 write "python client.py"</br><strong>step 3:</strong> Interact with the System: Follow the menu displayed in the client to fetch news or view sources.</P>
+<P><strong>step 1:</strong> open terminal then write "python s.py"</br>
+<strong>step 2:</strong> open the terminal by ctrl+shift+5 write "python c.py"</br><strong>step 3:</strong> Interact with the System: Follow the menu displayed in the client to fetch news or view sources.</P>
 
 <h1>The Scripts</h1>
 <P>
 This script is a client-server application that allows users to access news articles and sources using NewsAPI. Here's a summary of what each part does:
 </br>
 <strong>Server:</strong></br>
-- The server (server.py) runs on a specific IP and port.</br>
+- The server (s.py) runs on a specific IP and port.</br>
 - It accepts client connections, shows a menu to the user, and handles requests like searching headlines, listing sources, or quitting.</br>
 - The server connects to NewsAPI to fetch live news and sends the results back to the client.</br>
 
 <strong>Client:</strong></br>
-- The client (client.py) connects to the server and interacts with the user.</br>
+- The client (c.py) connects to the server and interacts with the user.</br>
 - Users can input their name and choose options from the menu to search for news or sources.</br>
 - The client sends requests to the server and displays the results received.</br>
 
