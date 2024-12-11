@@ -69,4 +69,19 @@ class NewsServer:
         finally:
             client_socket.close()
 
-   
+    def parse_request(self, request):
+        
+        params = {}
+        if "q=" in request:
+            params['q'] = request.split("q=")[1]
+        elif "category=" in request:
+            params['category'] = request.split("category=")[1]
+        elif "country=" in request:
+            params['country'] = request.split("country=")[1]
+        elif "language=" in request:
+            params['language'] = request.split("language=")[1]
+        else:
+            params['language'] = 'en'  # Default parameter
+        return params
+
+    
