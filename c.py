@@ -96,3 +96,38 @@ class NewsClient:
                 continue
 
             self.display_response("Sources")
+
+    def display_response(self, item_type):
+        try:
+            response = self.client_socket.recv(50000).decode()
+            data = json.loads(response)
+
+            items = data.get("articles", []) if item_type == "Headlines" else data.get("sources", [])
+            if not items:
+                print(f"No {item_type.lower()} found.")
+                return
+
+            # Limit the results to 15
+            items = items[:15]
+
+            for i, item in enumerate(items):
+                if item_type == "Headlines":
+                    print(f"{i + 1}. {item['title']} ({item['source']['name']})")
+                else:
+                    print(f"{i + 1}. {item['name']} ({item['country']})")
+
+            while True:
+                choice = input(f"Enter the number of the {item_type.lower()} to view details (or 'back' to return): ").strip()
+                if choice.lower() == 'back':
+                    break
+
+                try:
+                    index = int(choice) - 1
+                    if 0 <= index < len(items):
+                        self.display_details(items[index], item_type)
+                    else:
+                        print("Invalid number. Try again.")
+                except ValueError:
+                    print("Invalid input. Enter a number or 'back'.")
+        except json.JSONDecodeError:
+            print("Failed to decode server response.")
