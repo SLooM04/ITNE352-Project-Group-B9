@@ -1,0 +1,201 @@
+{
+    "status": "ok",
+    "totalResults": 60,
+    "articles": [
+        {
+            "source": {
+                "id": "ign",
+                "name": "IGN"
+            },
+            "author": "Eric Song",
+            "title": "Walmart Slashes This 65\" LG 4K OLED Smart TV Down to Under $1,000: The Most Affordable OLED TV - IGN",
+            "description": "An excellent price for an excellent TV to pair with your PlayStation console.",
+            "url": "https://www.ign.com/articles/lg-b3-4k-oled-smart-tv-deal-2024",
+            "urlToImage": "https://assets-prd.ignimgs.com/2024/12/09/lgb3-1733783652958.jpg?width=1280",
+            "publishedAt": "2024-12-10T00:11:45Z",
+            "content": "Walmart is offering the best deal right now on an OLED TV. You can pick up a 65\" LG B3 4K OLED Smart TV for only $998 (sold and shipped from Walmart direct). That's an outstanding price for a 65\" OLE\u2026 [+1942 chars]"
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "The Verge",
+            "title": "The Suicide Squad game\u2019s final season is coming less than a year after launch - The Verge",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcFA1V2hQZWNqdjF5UHhPUFctbVByOEFHazZsYXAxTzVha09vdVRkOVp1N3Y2MHRnblhBWHFZREt3dlJnaG9NMlNTQmoyd0F1VmlIVlMtSVdScFR0eUwwdEV1ejhZbVFCS2tGUnMtZEJiUHF5RWI4RmozTW9LcFZ6b2xieWFZZFNobzlKSDlzOUxwSklsWm9OVjRHS3g2N280cGRYYUpkWEM2Rk0?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-12-09T23:39:32Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "fortune",
+                "name": "Fortune"
+            },
+            "author": "Dave Smith",
+            "title": "Elon Musk is wowed by Google\u2019s new quantum chip, which it claims \u2018cracks a key challenge\u2019 that\u2019s existed for almost 3 decades - Fortune",
+            "description": "Google claims Willow can solve puzzles that would take regular computers longer than the age of the universe to figure out.",
+            "url": "https://fortune.com/2024/12/09/google-willow-quantum-chip-elon-musk/",
+            "urlToImage": "https://fortune.com/img-assets/wp-content/uploads/2024/12/GettyImages-2180560800-e1733781500851.jpg?resize=1200,600",
+            "publishedAt": "2024-12-09T22:18:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "[Removed]"
+            },
+            "author": null,
+            "title": "[Removed]",
+            "description": "[Removed]",
+            "url": "https://removed.com",
+            "urlToImage": null,
+            "publishedAt": "2024-12-09T21:50:00Z",
+            "content": "[Removed]"
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "Eurogamer",
+            "title": "Cyberpunk 2077 getting more \"cool stuff\" in surprise 2.2 update \"soon\" - Eurogamer",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxONU1uNXd5cEE1NWVweFB4MkdjSXRtSGFvSGZma2o4ekZXejdhbnlqWjVFb0ZDU0N0czRQNzE4dURvR19obmd3YWx2aE9GYVZ1M0RFSjI3Nk1mRmJrLTBfUmRLcFlTUGhGNmJsQ1U1MDJRX3lLN0htVVVyT2VCcThmOW9jX19RQ1VLZFpiLVRRaE9yVllHMkE?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-12-09T21:27:41Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Gizmodo.com"
+            },
+            "author": "James Whitbrook",
+            "title": "Your Marvel Rivals Comics Questions, Answered - Gizmodo",
+            "description": "NetEase's new Marvel hero shooter is finally out, and packed with comics details. If you're not as familiar with the books as the movies, here's a few burning questions you might want answering.",
+            "url": "https://gizmodo.com/marvel-rivals-comics-lore-explained-jeff-luna-iron-fist-psylocke-2000535998",
+            "urlToImage": "https://gizmodo.com/app/uploads/2024/12/Marvel-Rivals-Launch-Roster.jpg",
+            "publishedAt": "2024-12-09T21:15:14Z",
+            "content": "The world of comics and video games alike has been all aflutter with the launch of Marvel Rivals, the new team-based hero shooter that mashes together Marvel\u2019s comics history with the mechanics of th\u2026 [+10705 chars]"
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "9to5Mac",
+            "title": "Apple may be fixing two of the Mac\u2019s most annoying limitations - 9to5Mac",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPYW5fMTVWcHJ4cDRURDA0WEk2ekVtZHRXandRbXNER2FYMEdJN0QtaHZmSVN4TG81dkNfN0wwNm9xZ2l5ZGsySUJiRmVPQ1RfZUtBc2hPT1ppVjVlSjh5Tlc2Q20yUl9ZNC00SER4WWdVNFFCcHdTYV9GQ2c1a0R6emdkWENBM2llcG1yUkR2OWdNWFlwcEgtTA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-12-09T21:01:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "Hackaday",
+            "title": "Raspberry Pi 500 And The Case Of The Missing M.2 Slot - Hackaday",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMnVjQU5BYmg1SU5Tc1BjTGppOHpBWElBSkw4OTJVX2s5RjMyTzlDRVh3MjVSZnp3MndCbW1Ddl9JR2VJbzBzMzVxbGdEdlBEWks4UHF0RU1ENmRSVXYxU3FJeDhfcXBxM3VQUjJWOVZUaDR2N2NXQmlFa1duRU8wQnU4Rjh4TlN3QVpuVVJLMA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-12-09T21:00:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "Pok\u00e9mon GO Hub",
+            "title": "How Niantic\u2019s New Systems Are Dividing the Pok\u00e9mon GO Community - Pok\u00e9mon GO Hub",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYTk1SnhGbXU1TGxwM0t6S0MxU3FscllIMWJjRTIzenYtMVR0UVdwWHAyeEprMVNmaUxEczZHak9WTVI2ajRDMDk4aTZWY2YwSnd4QnlDdF9QTVo1bkx4MUJKRHdBMG9kTDhpVS1NOGNsQ3NhVlFBVkhMSEw4QTFRMF9qQmc4WXd4OGVFbkFCellUNGJfN3M5dFNDVml4SWEyWmZz?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-12-09T20:42:13Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "Gizmodo",
+            "title": "Space Startup Spins the Living Crap Out a Satellite\u2014and It Actually Survived - Gizmodo",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNM0VFOTZ4X0RVak1uMTBtUVctZWJteWE2VmhiaklyZ3JOUzI4YjU5VVRRUS1WdE93ajA2aFJLaXVuODlnNkRvZG9tUXRBZWVZOTJ5Q09kWDFaRExhdVZQallZZk1JM1BvNTdiY3FmMnoyYVVLVnlib19pWm5QX1VJMnVWSVJvSFVYb2NhWV9XbnNHSDFMMGJVZVRiSjlXbWc2c1owUVp3ZEVJdEU?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-12-09T20:30:06Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "9to5Mac"
+            },
+            "author": "Ryan Christoffel",
+            "title": "iPhone 17 Air will be 25% thinner, Apple\u2019s \u2018thinnest phone yet\u2019 per report - 9to5Mac",
+            "description": "Apple\u2019s iPhone 17 Air will be its thinnest phone yet, per a new report, with about a 25% thickness reduction compared to current flagships.",
+            "url": "https://9to5mac.com/2024/12/09/iphone-17-air-will-be-25-thinner-apples-thinnest-phone-yet/",
+            "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2024/08/iphone-17-air.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+            "publishedAt": "2024-12-09T18:28:00Z",
+            "content": "Next years iPhone 17 Air continues to get more detailed spec leaks. The latest report gives us our best understanding yet of exactly how much thinner the new device will be.\r\nApple has started drasti\u2026 [+2190 chars]"
+        },
+        {
+            "source": {
+                "id": "ign",
+                "name": "IGN"
+            },
+            "author": "Wesley Yin-Poole",
+            "title": "First Looks at Borderlands 4 and Mafia: The Old Country Set for the Game Awards - IGN",
+            "description": "2K has announced two of its big hitters are set for fresh reveals at this week\u2019s The Game Awards: Borderlands 4 and Mafia: The Old Country.",
+            "url": "https://www.ign.com/articles/first-looks-at-borderlands-4-and-mafia-the-old-country-set-for-the-game-awards",
+            "urlToImage": "https://assets-prd.ignimgs.com/2024/11/28/ss-51c4d2c7077286fc9fc8a220883fdd65e311ba1a-1920x1080-1732798801868.jpg?width=1280",
+            "publishedAt": "2024-12-09T18:22:35Z",
+            "content": "2K has announced two of its big hitters are set for fresh reveals at this weeks The Game Awards: Borderlands 4 and Mafia: The Old Country.\r\nWho's ready to get their first look at the most ambitious B\u2026 [+2418 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Blizzard.com"
+            },
+            "author": null,
+            "title": "Heroes of the Storm Live Patch Notes - December 9, 2024 - Blizzard News",
+            "description": "Our next Heroes of the Storm patch is live! Read on for more information.",
+            "url": "https://news.blizzard.com/en-us/heroes-of-the-storm/24161534/heroes-of-the-storm-live-patch-notes-december-9-2024",
+            "urlToImage": "https://bnetcmsus-a.akamaihd.net/cms/blog_thumbnail/o7/O7WWDG2II0LQ1620254949494.png",
+            "publishedAt": "2024-12-09T18:18:03Z",
+            "content": "Our next Heroes of the Storm patch is live! Read on for more information.\r\nNOTE: Orange text indicates a change between PTR and Live notes.\r\nQuick Navigation:\r\nGeneral\r\n<ul><li>Updated Homescreen and\u2026 [+15561 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "MacRumors"
+            },
+            "author": "Juli Clover",
+            "title": "Apple Seeds Second Release Candidate Versions of iOS 18.2 and More With Genmoji, Image Playground and ChatGPT Integration - MacRumors",
+            "description": "Apple today seeded the second release candidate versions of upcoming iOS 18.2, iPadOS 18.2, and macOS 15.2 updates to developers and public beta...",
+            "url": "https://www.macrumors.com/2024/12/09/apple-seeds-ios-18-2-second-rc/",
+            "urlToImage": "https://images.macrumors.com/t/u419F9T-2zXWL5Hkvaw4AqK7ZBg=/2500x/article-new/2024/10/Generic-iOS-18.2-Feature-Real-Mock.jpg",
+            "publishedAt": "2024-12-09T18:06:36Z",
+            "content": "Apple today seeded the second release candidate versions of upcoming iOS 18.2, iPadOS 18.2, and macOS 15.2 updates to developers and public beta testers for testing purposes, a week after releasing t\u2026 [+5323 chars]"
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "IGN",
+            "title": "Publishers Reportedly Refuse to Commit to 2025 Until GTA 6 Release Date Gets Revealed - IGN",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWmJ6aFJVcUNWTkdRMzFQQUJuVVN0Mkh5S05xRF9lbTJxTS1TWWNMak1MTGNFc3JndkxYb3hmZXhZN0hMZFUyb1V4RWctV2ZVUnpYSjdqYVliQ2lGWXUxZEt2NDdGWXRnVUhkVVd2WUpXQld3cXE4Z0IyZ0x0bUVVT3MyQWxyMW95ZHozYlotd2lKTXBFV1hoeTRLaldPamNUamstaVQ5NXllYXlSY2lrbWtOTUk?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-12-09T18:02:35Z",
+            "content": null
+        }
+    ]
+}
