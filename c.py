@@ -131,3 +131,33 @@ class NewsClient:
                     print("Invalid input. Enter a number or 'back'.")
         except json.JSONDecodeError:
             print("Failed to decode server response.")
+
+    def display_details(self, item, item_type):
+        print("\nDetails:")
+        if item_type == "Headlines":
+            print(f"Title: {item['title']}")
+            print(f"Source: {item['source']['name']}")
+            print(f"Author: {item.get('author', 'N/A')}")
+            print(f"URL: {item.get('url', 'N/A')}")
+            print(f"Description: {item.get('description', 'N/A')}")
+
+            published_at = item.get('publishedAt', 'N/A')
+            if published_at != 'N/A':
+                date, time = published_at.split('T')
+                time = time.split('Z')[0]  
+                print(f"Published Date: {date}")
+                print(f"Published Time: {time}")
+            else:
+                print("Published At: N/A")
+        else:
+            print(f"Name: {item['name']}")
+            print(f"Country: {item.get('country', 'N/A')}")
+            print(f"Description: {item.get('description', 'N/A')}")
+            print(f"URL: {item.get('url', 'N/A')}")
+            print(f"Category: {item.get('category', 'N/A')}")
+            print(f"Language: {item.get('language', 'N/A')}")
+
+if __name__ == "__main__":
+    client = NewsClient('127.0.0.1', 12346)
+    client.connect()
+    client.start()
