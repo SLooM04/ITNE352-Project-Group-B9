@@ -66,3 +66,33 @@ class NewsClient:
                 continue
 
             self.display_response("Headlines")
+
+    def sources_menu(self):
+        while True:
+            print("\nSources Menu:")
+            print("1 - Search by Category")
+            print("2 - Search by Country")
+            print("3 - Search by Language")
+            print("4 - List All Sources")
+            print("5 - Back to Main Menu")
+
+            choice = input("Choose an option: ").strip()
+
+            if choice == "1":
+                category = input("Enter category (business, general, health, science, sports, technology): ")
+                self.client_socket.send(f"sources category={category}".encode())
+            elif choice == "2":
+                country = input("Enter country code (au, ca, jp, ae, sa, kr, us, ma): ")
+                self.client_socket.send(f"sources country={country}".encode())
+            elif choice == "3":
+                language = input("Enter language code (ar, en): ")
+                self.client_socket.send(f"sources language={language}".encode())
+            elif choice == "4":
+                self.client_socket.send("sources".encode())
+            elif choice == "5":
+                break
+            else:
+                print("Invalid choice.")
+                continue
+
+            self.display_response("Sources")
