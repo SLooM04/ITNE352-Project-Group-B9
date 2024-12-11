@@ -69,8 +69,13 @@ The script is interactive, with options to search by keyword, category, or count
 Using Object-Oriented Programming (OOP) helped organize the code by dividing it into classes that represent specific parts of the system, such as the server and client. This made the code more readable and maintainable, while also making it easier to add new features or modify existing functions without affecting other parts of the code.</li></ul>
 
 <h1>Acknowledgments</h1>
+<P>
+ 
+</P>
 
 <h1>Conclusion</h1>
+<p>In conclusion, we successfully built a multi-threaded client/server application that allows users to fetch news and sources using NewsAPI. We learned a lot about programming and working with APIs. In the future, we can improve the project by adding new features such as user authentication or enhancing the user interface.
+</p>
 
 
 
