@@ -37,3 +37,32 @@ class NewsClient:
             except KeyboardInterrupt:
                 print("\nProgram interrupted. Exiting...")
                 break       
+    def headlines_menu(self):
+        while True:
+            print("\nHeadlines Menu:")
+            print("1 - Search by Keyword")
+            print("2 - Search by Category")
+            print("3 - Search by Country")
+            print("4 - List All Headlines")
+            print("5 - Back to Main Menu")
+
+            choice = input("Choose an option: ").strip()
+
+            if choice == "1":
+                keyword = input("Enter keyword: ")
+                self.client_socket.send(f"headlines q={keyword}".encode())
+            elif choice == "2":
+                category = input("Enter category (business, general, health, science, sports, technology): ")
+                self.client_socket.send(f"headlines category={category}".encode())
+            elif choice == "3":
+                country = input("Enter country code (au, ca, jp, ae, sa, kr, us, ma): ")
+                self.client_socket.send(f"headlines country={country}".encode())
+            elif choice == "4":
+                self.client_socket.send("headlines".encode())
+            elif choice == "5":
+                break
+            else:
+                print("Invalid choice.")
+                continue
+
+            self.display_response("Headlines")
