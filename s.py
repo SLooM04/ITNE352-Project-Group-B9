@@ -84,4 +84,10 @@ class NewsServer:
             params['language'] = 'en'  # Default parameter
         return params
 
-    
+    def save_to_json(self, client_name, option, data):
+        
+        filename = f"{client_name}_{option}_B9.json"
+        with open(filename, 'w') as f:
+            json.dump(data, f, indent=4)
+
+   
