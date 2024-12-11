@@ -32,4 +32,41 @@ class NewsServer:
         except requests.RequestException as e:
             return {"error": f"Failed to fetch data: {e}"}
 
-    
+    def handle_client(self, client_socket, client_address):
+        
+        print(f"Connected to {client_address}")
+        try:
+            client_name = client_socket.recv(1024).decode()
+            print(f"Client Name: {client_name}")
+            client_socket.send(f"Welcome, {client_name}!".encode())
+
+            while True:
+                client_request = client_socket.recv(1024).decode().strip().lower()
+
+                if not client_request or client_request == "quit":
+                    print(f"Client {client_name} disconnected.")
+                    break
+
+                if client_request.startswith("headlines"):
+                    print(f"[Request from {client_name}] headlines")
+                    params = self.parse_request(client_request)
+                    news = self.fetch_news("top-headlines", params)
+                    self.save_to_json(client_name, "headlines", news)
+                    client_socket.send(json.dumps(news).encode())
+
+                elif client_request.startswith("sources"):
+                    print(f"[Request from {client_name}] sources")
+                    params = self.parse_request(client_request)
+                    sources = self.fetch_news("sources", params)
+                    self.save_to_json(client_name, "sources", sources)
+                    client_socket.send(json.dumps(sources).encode())
+
+                else:
+                    client_socket.send("Invalid request. Try 'headlines', 'sources', or 'quit'.".encode())
+
+        except Exception as e:
+            print(f"Error with client {client_address}: {e}")
+        finally:
+            client_socket.close()
+
+   
